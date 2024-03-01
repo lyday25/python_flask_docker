@@ -1,0 +1,10 @@
+
+version: '3.3'
+ 
+services:
+  flask_app:
+    image: lyday25/silverimg
+    ports:
+      - 5001:5001
+    volumes:
+      - ./:/app
